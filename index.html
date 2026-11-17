@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Una aventura para Kevin</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body>
+<div id="stage">
+ <div id="bg"></div><div id="spr"></div><div id="fx"></div>
+ <div id="hud"><span id="lvl"></span><span id="inv"></span></div>
+ <div id="choices"></div>
+ <div id="box" hidden><span></span><i>▼</i></div>
+ <div id="player"><button id="mute" title="Música">🔊</button><input id="vol" type="range" min="0" max="100" value="50"><span id="eq"><b></b><b></b><b></b><b></b></span></div>
+ <div id="fade"></div>
+ <div id="title"><h1>Una aventura<br>especialmente<br>para Kevin</h1><img src="img/pareja.png" alt=""><button class="btn" id="play">jugar</button><p>🎧 mejor con audífonos y sonido</p></div>
+</div>
+<div id="rot">📱↻<br>Gira tu celular para jugar</div>
+<script src="audio.js"></script><script src="game.js"></script></body></html>
